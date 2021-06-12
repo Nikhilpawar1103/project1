@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+/*font-family:'lobster', cursive;
+font-faily:'noto sans jp',sans-serif;
+font-family:'roboto',sans-serif;
+font-family: 'Lobster', cursive;
+#0BF5E3*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+
+}
+.navbar ul li{
+	list-style: none;
+}
+.navbar ul li a{
+	color: red;
+	text-decoration: none;
+	padding: 0.8rem;
+	font-family:'roboto',sans-serif;
+	margin-left: 1rem;
+}
+.navbar ul li a:hover{
+	background: #0BF5E3;
+	border-radius: 5rem;
+	
+}
+.design{
+	color:#0BF5E3;
+	font-family: 'Lobster', cursive;
+}
+.header{
+	background: url(3.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+}
+.header div{
+	color: white;
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family:'noto sans jp',sans-serif;
+}
+.head{
+	font-size: 3rem;
+	margin: 0.4rem;
+	color: #0BF5E3;
+}
+.text{
+	font-size: 1.5rem;
+	margin: 0.4rem;
+	color: grey;
+}
+.btn{
+	background-color: #ff2626;
+	height: 2rem;
+	width: 5rem;
+	color: black;
+	border: none;
+	font-size: 1rem;
+}
+#services{
+	display: flex;
+	flex: 1;
+	padding-left: 5.5rem;
+}
+.container{
+	margin: 10px auto;
+	width: 70rem;
+}
+.services{
+	font-family:font-family: 'Lobster', cursive;
+ 	text-align: center;
+ 	font-size: 2.5rem
+}
+.cards-p{
+	font-size: 1.5rem;
+	margin: 10px auto;
+}
+.cards{
+	text-align: center;
+	font-family: font-faily:'noto sans jp',sans-serif;
+	padding: 2.5rem;
+}
+.cards i{
+	background-color:#0BF5E3;
+	padding: 4rem;
+	border-radius: 6rem;
+
+}
+#about{
+	background: url('8.jpg');
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+}
+.about-p{
+	color: white;
+	font-family:'roboto',sans-serif;
+	text-align: right;
+	padding: 1rem 6rem 0 60rem;
+	background-size: cover;
+}
+#about div{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+}
+.about-h1{
+	color: yellow;
+	text-align:right;
+	padding:1rem 6rem 0 45rem;
+	font-family:'roboto',sans-serif;
+	font-size: 2.5rem;
+}
+#about-btn{
+	float: right;
+	padding:0.7rem;
+	margin:1rem 6rem 0 0;
+	background-color:#ff2626;
+	border: none; 
+}
+#ourteam{
+	display: flex;
+	flex: 1;
+	
+}
+.img{
+	display: flex;
+	height: 27rem;
+	width: 23rem;
+	padding:1rem 0 2rem 3rem; 
+
+}
+.ourteam-h1{
+	padding-left: 35rem;
+	padding-top: 2rem;
+	font-size: 4rem;
+	padding-bottom: 1.5rem;
+	color:#ff2626;
+}
+.ourteam{
+	text-align: center;
+	font-size: 2rem
+}
+footer{
+	background-color:#0BF5E3;
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 1rem;
+	margin-top: 5rem;
+}
